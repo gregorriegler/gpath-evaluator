@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gpath-evaluator/static/css/main.20d8fbc6.chunk.css",
+    "main.js": "/gpath-evaluator/static/js/main.657b1012.chunk.js",
+    "main.js.map": "/gpath-evaluator/static/js/main.657b1012.chunk.js.map",
+    "runtime-main.js": "/gpath-evaluator/static/js/runtime-main.1f70445d.js",
+    "runtime-main.js.map": "/gpath-evaluator/static/js/runtime-main.1f70445d.js.map",
+    "static/js/2.2daa34a8.chunk.js": "/gpath-evaluator/static/js/2.2daa34a8.chunk.js",
+    "static/js/2.2daa34a8.chunk.js.map": "/gpath-evaluator/static/js/2.2daa34a8.chunk.js.map",
+    "index.html": "/gpath-evaluator/index.html",
+    "precache-manifest.2cf73d680cf1c342666c98914c0021be.js": "/gpath-evaluator/precache-manifest.2cf73d680cf1c342666c98914c0021be.js",
+    "service-worker.js": "/gpath-evaluator/service-worker.js",
+    "static/css/main.20d8fbc6.chunk.css.map": "/gpath-evaluator/static/css/main.20d8fbc6.chunk.css.map"
+  }
+}
