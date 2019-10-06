@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="91332662-80fb-4df2-b5da-cf1b6e832af3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <list id="7e1872b7-9e68-4df3-a7ec-58923ca9b4d8" name="add props" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +25,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -91,6 +90,8 @@
       <option name="presentableId" value="Default" />
       <updated>1570034925165</updated>
       <workItem from="1570034926604" duration="9631000" />
+      <workItem from="1570086406922" duration="11000" />
+      <workItem from="1570366134995" duration="322000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1570045841182</created>
@@ -106,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570045857275</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add props">
+      <created>1570048287705</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570048287705</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +125,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -128,6 +138,7 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="do i need this" />
-    <option name="LAST_COMMIT_MESSAGE" value="do i need this" />
+    <MESSAGE value="add props" />
+    <option name="LAST_COMMIT_MESSAGE" value="add props" />
   </component>
 </project>
