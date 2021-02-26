@@ -79,7 +79,7 @@ class App extends Component {
                 that.handleResult(message);
             }
         });
-        xhr.open('POST', 'https://cors-anywhere.herokuapp.com/https://groovy-playground.appspot.com/api/script')
+        xhr.open('POST', 'https://cors.bridged.cc/https://groovy-playground.appspot.com/api/script')
         xhr.setRequestHeader('content-type', 'application/json')
         xhr.send(JSON.stringify(this.createRequest(json, expression)))
     };
