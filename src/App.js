@@ -79,9 +79,9 @@ class App extends Component {
                 that.handleResult(message);
             }
         });
-        xhr.open('POST', 'https://cors.bridged.cc/https://groovy-playground.appspot.com/api/script')
-        xhr.setRequestHeader('content-type', 'application/json')
-        xhr.send(JSON.stringify(this.createRequest(json, expression)))
+        xhr.open('POST', 'https://cors.bridged.cc/https://groovyide.com/api/v1/run')
+        xhr.setRequestHeader('content-type', 'text/plain;charset=UTF-8')
+        xhr.send(this.createRequest(json, expression))
     };
 
     createRequest(json, expression) {
@@ -91,9 +91,7 @@ class App extends Component {
         source += "\"\"\")\r\n\r\n";
         source += "def test = object." + expression + "\r\n\r\n";
         source += "print(test)";
-        return {
-            source: source,
-        };
+        return source;
     }
 
     render() {
