@@ -70,14 +70,7 @@ class App extends Component {
         const xhr = new XMLHttpRequest();
         let that = this;
         xhr.addEventListener('load', () => {
-            let response = JSON.parse(xhr.responseText);
-            let type = response.output[0].type;
-            let message = response.output[0].message;
-            if(type === 'EXCEPTION') {
-                that.handleError(message);
-            } else {
-                that.handleResult(message);
-            }
+            that.handleResult(xhr.responseText);
         });
         xhr.open('POST', 'https://cors.bridged.cc/https://groovyide.com/api/v1/run')
         xhr.setRequestHeader('content-type', 'text/plain;charset=UTF-8')
